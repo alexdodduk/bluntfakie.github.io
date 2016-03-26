@@ -1,5 +1,131 @@
 html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address,big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul,li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed,figure, figcaption,footer, header, hgroup,menu, nav, output, ruby, section, summary,time, mark, audio, video {margin: 0;padding: 0;border: 0;font-size: 100%;font: inherit;vertical-align: baseline;}article, aside, details, figcaption, figure,footer,header, hgroup, menu, nav, section {display: block;}body {line-height: 1;}ol, ul{list-style: none;}blockquote, q {quotes: none;}blockquote:before, blockquote:after,q:before, q:after {content: "";content: none;}table {border-collapse: collapse;border-spacing: 0;}
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Lora', serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333E51;
+}
+
+a {
+    color: #10BC9F;
+}
+
+a:hover, a:focus, a:visited {
+    color: #0A7563;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-top: 1.2em;
+    line-height: 1;
+    margin-bottom: 0.8em;
+}
+
+h1 {
+    text-shadow: .5px .5px #333E51,1px 1px #333E51,1.5px 1.5px #333E51,2px 2px #333E51,2.5px 2.5px #333E51,3px 3px #333E51,3.5px 3.5px #333E51,4px 4px #333E51,4.5px 4.5px #333E51,5px 5px #333E51,5.5px 5.5px #333E51,6px 6px #333E51,6.5px 6.5px #333E51,7px 7px #333E51;
+    font-size: 3em;
+    color: white;
+    margin: 0;
+    line-height: 1.6;
+}
+
+h2 {
+    font-size: 2em;
+    padding-bottom: 0.8em;
+}
+
+h3 {
+    font-size: 1.5em;
+    margin-top: 1.6em;
+    color: #10BC9F;
+}
+
+h4 {
+    font-family: 'Lora', serif;
+    font-style: italic;
+    font-size: 1.25em;
+}
+
+.page-header {
+    text-align: center;
+    font-size: 1rem;
+    background: #7EF4E1;
+}
+
+.page-header h2 {
+    margin-top: .2em;
+}
+
+.main-content {
+    max-width: 70rem;
+    margin: auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.main-content h2 {
+    color: #10BC9F;
+}
+
+.projects {
+    list-style: none;
+    padding-left: 0;
+}
+
+.project img {
+    width: 100%;
+}
+
+.coming-soon {
+    font-style: italic;
+    text-align: center;
+}
+
+footer {
+    padding: 2rem 2rem;
+    background: #333E51;
+    color: white;
+    margin-top: 2rem;
+}
+
+@media (min-width: 768px) {
+    .page-header {
+        font-size: 2rem;
+    }
+    
+    .main-content {
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+    
+    .project img {
+        float: left;
+        width: 25%;
+    }
+    
+    .info {
+        float: left;
+        width: 75%;
+    }
+    
+    .info p, .info a {
+        padding-left: 1rem;
+    }
+    
+    .info p a {
+        padding-left: 0;
+    }
+    
+    .project:after {
+        content: '';
+        clear: both;
+        visibility: hidden;
+        display: block;
+        height: 0;
+    }
+    
+    footer {
+        padding: 2rem 5rem;
+    }
 }

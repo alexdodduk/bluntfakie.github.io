@@ -1,50 +1,79 @@
 <!DOCTYPE html>
 <html>
-	<head>
-        <meta charset="utf-8">        
-        <meta name="author" content="Alex Dodd">
-        <meta name="description" content="A page showcasing all my &quot;finished&quot; GitHub projects.">
-        
-        <!-- Mobile Stuff -->
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="msapplication-tap-highlight" content="no">
-        
-        <!-- Chrome on Android -->
-        <meta name="mobile-web-app-capable" content="yes">
-        <meta name="application-name" content="CHANGE-ME">
-        <link rel="icon" sizes="192x192" href="images/touch/chrome-touch-icon.png">
-        
-        <!-- Safari on iOS -->
-        <meta name="apple-mobile-web-app-capable" content="yes">
-        <meta name="apple-mobile-web-app-status-bar-style" content="black">
-        <meta name="apple-mobile-web-app-title" content="CHANGE-ME">
-        <link rel="apple-touch-icon" href="images/touch/apple-touch-icon.png">
-        
-        <!-- Windows 8 -->
-        <meta name="msapplication-TileImage" content="images/touch/ms-touch-icon.png">
-        <meta name="msapplication-TileColor" content="#FFFFFF">
-        
-        
-        <meta name="theme-color" content="#000000">
-        
-        <link rel="shortcut icon" href="favicon.ico">
-        
-        <title>Alex Dodd - GitHub Projects</title>
-        <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" type="text/css" href="styles.css">
-    </head>
 
-    <body>    
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Alex Dodd">
+    <meta name="description" content="A page showcasing all my &quot;finished&quot; GitHub projects.">
+
+    <!-- Mobile Stuff -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="msapplication-tap-highlight" content="no">
+
+    <link rel="shortcut icon" href="images/favicon.png">
+
+    <title>Alex Dodd - GitHub Projects</title>
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,400italic|Roboto+Condensed:400' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <header class="page-header">
         <h1>
             Alex Dodd
         </h1>
-        
-        
-        <!-- Scripts -->
-        <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-        <script>
-            
-        </script>
-    </body>
+        <h2>
+            GitHub Projects
+        </h2>
+    </header>
+    <section class="main-content">
+        <h2>
+            Welcome to my GitHub projects page.
+        </h2>
+        <p>
+            Here you will find all of my "finished" projects that I deem good enough to show off. You can of course check out all my GitHub repos on my GitHub profile <a href="https://github.com/bluntfakie">here</a>.
+        </p>
+        <ul class="projects">
+            <li class="project">
+                <h3>
+                    100 Bullets - Ghosts
+                </h3>
+                <a href="http://bluntfakie.github.io/100-Bullets-Ghosts/">
+                    <img src="images/projects/100-Bullets.png" alt="100 Bullets - Ghosts home page" />
+                </a>
+                <div class="info">
+                    <p>
+                        A website to promote the new 100 Bullets fan-made film called Ghosts. Uses the vimeo API to play the trailer in a modal overlay I created.
+                    </p>
+                    <a href="http://bluntfakie.github.io/100-Bullets-Ghosts/">View site</a>
+                </div>
+            </li>
+            <li class="project">
+                <h3>
+                    Scrolling background colour effect
+                </h3>
+                <a href="http://bluntfakie.github.io/Scrolling-background-colour-effect/">
+                    <img src="images/projects/Scroll-demo-min.png" alt="100 Bullets - Ghosts home page" />
+                </a>
+                <div class="info">
+                    <p>
+                        After seeing this cool effect on <a href="https://sfcd.com/">SFCD.com</a> I had a crack at creating the effect myself. One day I will turn it into a plugin for others to use.
+                    </p>
+                    <a href="http://bluntfakie.github.io/Scrolling-background-colour-effect/">View site</a>
+                </div>
+            </li>
+        </ul>
+        <h4 class="coming-soon">More projects will be added soon.</h4>
+    </section>
+    <footer>
+        Fueled by &#x1f355; in London. Shout out to <a href="https://en.wikipedia.org/wiki/Tea">tea</a> everywhere.
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script>
+    </script>
+</body>
+
 </html>
