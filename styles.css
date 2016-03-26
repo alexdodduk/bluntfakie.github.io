@@ -58,7 +58,6 @@ h4 {
 }
 
 .main-content {
-    max-width: 70rem;
     margin: auto;
     padding-left: 2rem;
     padding-right: 2rem;
@@ -83,10 +82,13 @@ h4 {
 }
 
 footer {
-    padding: 2rem 2rem;
     background: #333E51;
-    color: white;
     margin-top: 2rem;
+}
+
+footer p {
+    color: white;
+    padding: 2rem 2rem;
 }
 
 @media (min-width: 768px) {
@@ -95,6 +97,7 @@ footer {
     }
     
     .main-content {
+        max-width: 70rem;
         padding-left: 5rem;
         padding-right: 5rem;
     }
@@ -125,7 +128,9 @@ footer {
         height: 0;
     }
     
-    footer {
+    footer p {
         padding: 2rem 5rem;
+        max-width: 70rem;
+        margin: auto;
     }
 }
